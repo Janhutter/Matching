@@ -1,11 +1,11 @@
-student_id, original_group, new_group, accept_swap_teammate, swap_teammate_id
-13799924, 'A', 'C', False, nan
-13799925, 'B', 'C', True, 1400000
-13799926, 'A', 'B', True, 13799927
-13799927, 'B', 'A', True, 13799926
-13799928, 'A', 'C', True, 13799929
-13799929, 'C', 'A', True, 13799928
-13799930, 'A', 'B', True, 13799931
-13799931, 'B', 'A', True, 13799930
-13799932, 'A', 'C', True, 13799933
-13799933, 'C', 'A', True, 13799932
+course, student_id, original_group, new_group, accept_swap_teammate, swap_teammate_id
+'RL', 13799924, 'A', 'C', False, nan
+'RL', 13799925, 'B', 'C', True, 1400000
+'RL', 13799926, 'A', 'B', True, 13799927
+'RL', 13799927, 'B', 'A', True, 13799926
+'RL', 13799928, 'A', 'C', True, 13799929
+'RL', 13799929, 'C', 'A', True, 13799928
+'RL', 13799930, 'A', 'B', True, 13799931
+'RL', 13799931, 'B', 'A', True, 13799930
+'RL', 13799932, 'A', 'C', True, 13799933
+'RL', 13799933, 'C', 'A', True, 13799932
