@@ -6,8 +6,12 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQI0WAlBfmRR8i8YPnWYeXlHqdX7Kp2wC54HVZ_1OAdPx1lg/viewform?embedded=true" width="640" height="1873" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+
+
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list">
+<!-- <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <li class="post-preview">
     <article>
@@ -83,9 +87,9 @@ layout: page
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
-        <span>Tags:</span>
+        <span>Tags:</span> -->
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
+        <!-- <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
           <li class="list-inline-item">
             <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
@@ -119,4 +123,4 @@ layout: page
   </li>
   {% endif %}
 </ul>
-{% endif %}
+{% endif %} -->
