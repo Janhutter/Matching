@@ -51,7 +51,13 @@ def read_google_sheet():
 
     # Convert to DataFrame for better readability (optional)
     df = pd.DataFrame(values)
-    print(df)
-
+    colnames = ['course', 'student_id', 'original_group', 'new_group', 'accept_swap_teammate', 'swap_teammate_id']
+    # remove first column from df
+    df = df.iloc[1:, 1:]
+    # set column names
+    df.columns = colnames
+    # write to swappers.csv 
+    df.to_csv('swappers.csv', index=False)
+    print("Data written to swappers.csv")
 if __name__ == "__main__":
     read_google_sheet()
